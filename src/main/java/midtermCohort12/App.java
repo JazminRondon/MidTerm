@@ -16,9 +16,9 @@ public class App {
     }
 
     public static String getSecondaryAddressOfCustomer(Customer customer){
-        String addy=" ";
-        for (int i = 0; i < customer.getAddress().size(); i++) {
-        }
+        String addy=" "+customer.getAddress();
+//        for (int i = 0; i < customer.getAddress(); i++) {
+//        }
 
         return addy;
     }
